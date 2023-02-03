@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color:gold;
+    color:red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-size: 20;
+    cursor: pointer;
+}
+.navlinks{
+    float: right;
+    padding-right:30px ;
+    cursor: pointer;
+}
+.navlinks ul li{
+    display: inline-block;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17;
+    text-transform: capitalize;
+}
+.navboarder::after{
+    content: ' ';
+    width: 0;
+    height: 2px;
+    background-color: pink;
+    transform: width 0.3s ease;
+display: block;
+}
+.navboarder:hover::after{
+    width: 80px;
+}
+.container{
+    background-image: linear-gradient(to top,rgba(145,146,122,0.62),rgba(145,146,122,0.2));
+    background-image:url("./pizza.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    height: 695px;
+    color: black;
+    text-align: center;
+}   
+.container h1{
+    padding-top: 90px;
+    color:orange;
+    font-size: 60;
+}
+.container p{
+    padding-top: 20px;
+    color:yellowgreen;
+    font-weight: 800;
+}
+.order{
+    background-color: crimson;
+    padding: 10px 10px;
+    border: none;
+    font-size: 15;
+    border-radius: 3px;
+    margin-top: 60px;
+    transition: 0.2s ease ;
+}
+.order a{
+    text-decoration: none;
+    color: white;
+}
+.order a:hover{
+    padding: 20px 15px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    border: 2px solid chocolate;
+}
+.pizza{
+    padding: 30px 60px;
+    margin: 30px 0 0 40px;
+}
+.container2 h1{
+    margin: 0px 0px 0px 60px;
+    color: crimson;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: center;
+}
+.container2 h3{
+    color: crimson;
+}
+.aboutmyfood{
+    display: flex;
+    margin: 50px 100px 0 0;
+}
+.contanier3{
+    background-color: lightpink;
+    border: 2px solid crimson;
+    margin: 30px 20px;
+    padding: 20px; ;
+}
+.contanier3 h1{
+text-align: center;
+color: crimson;
+}
+.combos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.combos h2{
+    color: crimson;
+    text-align: center;
+    margin:5px;
+}
+.combo1,.combo2,.combo3{
+    border: 2px solid crimson;
+    text-align: center;
+    padding: 20px 30px;
+} 
+.combos ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.buy{
+    margin-top: 30px;
+    padding:10px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: crimson;
+    transition: 0.2s ease;
+}
+.buy:hover{
+    background-color: rgb(178, 20, 52);
+}
+
+.contact{
+    border: 2px solid crimson;
+    margin: 30px 20px;
+    text-align: center;
+}
+.contact h1{
+    padding-top: 30px;
+    color: crimson;
+}
+.form{
+    background-color: gold;
+display:grid;
+text-align: center;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 50px;
+}
+input[type=text]{
+    margin:10px auto 30px auto;
+    width: 400px;
+    padding :7px 5px;
+    border: 2px solid crimson;
+border-radius: 3px;
+}
+
+input[type=email]{
+    margin:10px auto 30px auto;
+    width: 400px;
+    padding :7px 5px;
+    border: 2px solid crimson;
+border-radius: 3px;
+}
+input[type=number]{
+    margin:10px auto 30px auto;
+    width: 400px;
+    padding :7px 5px;
+    border: 2px solid crimson;
+border-radius: 3px;
+}
+.form textarea{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    height: 250px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+}
+.query{
+    padding:10px;
+    background-color: crimson;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+.query a{
+    color: white;
+    text-decoration: none;
+}
+.query a:hover{
+    background-color: rgb(178, 20, 52) ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: crimson;
+    color: aliceblue;
+    justify-content: space-around;
+}
+.footer h1,.footer2 h1,.footer3 h1,.credit p{
+    color: white;
+}
+.footer2 ul,.footer3 ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.footer2 ul li a,.footer3 ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.footer2 ul li a:hover,.footer3 ul li a:hover{
+    color: blue;
+}
+
